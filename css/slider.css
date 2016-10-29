@@ -1,0 +1,123 @@
+            .slider-handle
+            {
+                cursor:pointer;
+            }
+            
+            #background .show
+            {
+                opacity: 0;
+                transition: opacity 100.5s, linear 0.5s;
+            }
+            
+            #background:hover .show
+            {
+                transition-delay: 0s;
+                opacity: 1;
+            }
+            
+            #ex1Slider .slider-selection, #ex2Slider .slider-selection 
+            {
+                background: #25c5cc;
+            }
+            
+            #ex1Slider .slider-handle, #ex2Slider .slider-handle
+            {
+                background: #25c5cc;
+                box-shadow: rgba(0, 0, 0, 0.498039) -10px -0px 10px -6px;
+                top: -2px;
+                width: 25px;
+                height: 25px;
+            }
+            
+            #background
+            {
+                font-size: 1.2em;
+                margin: 0;
+                width: 300px;
+                height: 300px;
+                background: url(../img/slider.jpg) no-repeat;
+            }
+            
+            #ex1Slider, #ex2Slider
+            {
+                width: 240px;
+                margin: auto;
+            }
+            
+            #ex1SliderVal, #ex2SliderVal
+            {
+                color:white;
+            }
+            
+            #value1, #value2
+            {
+                display: flex;
+                border: 2px solid white;
+                width: 80px;
+                height: 35px;
+                border-radius: 5px;   
+            }
+            
+            #text
+            {
+                display: flex;    
+                width: 80px;
+                height: 35px;
+            }
+            
+            #value1 span, #text span, #value2 span
+            {
+                margin: auto;
+                color:white;
+            }
+            
+            #text span
+            {
+                margin-left: 10px;
+            }
+  
+            .ex1, .ex2, .button
+            {
+                display: flex;
+            }  
+ 
+            svg
+            {
+               margin: auto;
+               fill: white;
+               color: #25c5cc;
+               cursor:pointer;
+            }
+ 
+            .col-md-5
+            {
+                margin-top: 5px;
+                margin-bottom: 5px;
+            }
+            
+            .slider1
+            {
+                margin-top: 60px;
+                margin-bottom: 0;
+            }
+            
+            .slider2
+            {
+               padding-top: 40px;
+               margin-bottom: 0;
+            }
+
+            .button div            
+            {
+                margin: auto;     
+            }
+ 
+            #ok
+            {
+                display: none;    
+            } 
+ 
+            .button
+            {
+                padding-top: 20px;
+            }
